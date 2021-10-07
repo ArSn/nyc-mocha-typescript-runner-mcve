@@ -1,0 +1,11 @@
+{
+  "include": [ "lib/*", "tests/*" ],
+
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./built",
+    "rootDir": ".",
+    "lib": ["es2020.promise","es2019.array"],
+    "esModuleInterop": true
+  },
+}
