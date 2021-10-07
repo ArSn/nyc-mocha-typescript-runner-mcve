@@ -3,6 +3,4 @@ function doScannyStuff(  ) {
     return true;
 }
 
-export = {
-    doScannyStuff
-};
+export default doScannyStuff;
