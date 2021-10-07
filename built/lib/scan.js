@@ -4,5 +4,10 @@ function doScannyStuff() {
     console.log("Beep beep ... doing scanny stuff ...");
     return true;
 }
-exports["default"] = doScannyStuff;
+exports.doScannyStuff = doScannyStuff;
+function doOtherStuff() {
+    console.log("Do other stuff ...");
+    return false;
+}
+exports.doOtherStuff = doOtherStuff;
 //# sourceMappingURL=scan.js.map

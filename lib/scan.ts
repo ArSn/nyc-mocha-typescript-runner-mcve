@@ -3,4 +3,12 @@ function doScannyStuff(  ) {
     return true;
 }
 
-export default doScannyStuff;
+function doOtherStuff(  ) {
+    console.log("Do other stuff ...");
+    return false;
+}
+
+export {
+    doScannyStuff,
+    doOtherStuff
+};
