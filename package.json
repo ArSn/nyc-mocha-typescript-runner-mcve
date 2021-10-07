@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "mocha --require ts-node/register/transpile-only --require source-map-support/register tests/*",
+    "test": "node ./built/tests/runner.js",
     "coverage": "nyc npm run test"
   },
   "repository": {
